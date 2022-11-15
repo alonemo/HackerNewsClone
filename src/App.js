@@ -6,12 +6,12 @@ const App = () => {
   return (
     <Switch>
       <Route path="/" exact>
-        <Redirect to="/news" />
+        <Redirect to="/HackerNewsClone/news" />
       </Route>
-      <Route path="/news" exact>
+      <Route path="/HackerNewsClone/news" exact>
         <AllNews />
       </Route>
-      <Route path="/news/:storyId">
+      <Route path="/HackerNewsClone/news/:storyId">
         <Story />
       </Route>
       <Route path="*">
