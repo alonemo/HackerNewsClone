@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+/* .main-header .main-logo {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  display: inline-block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-nav {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: calc(100% - 350px);
+  margin-bottom: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-header .reload-button,
+.main-header .reload-button:focus {
+  vertical-align: middle;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  padding-bottom: 0;
+  padding-top: 0;
+  background: black;
+  border-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-header .reload-button:hover,
+.main-header .reload-button:active {
+  background: white;
+  color: black;
+  border-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-.App-link {
-  color: #61dafb;
+.site-layout .story-card .story-card__badge {
+  line-height: normal;
+  display: inline-block;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.site-layout .story-card {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
 }
+
+.site-layout .story-card .ant-card-meta-title {
+  font-size: 1.5rem;
+  width: 100%;
+  white-space: inherit;
+} */

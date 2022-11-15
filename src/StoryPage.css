@@ -1,0 +1,53 @@
+
+
+.site-layout-content {
+  width: 70%;
+  margin: 24px auto;
+  /* margin: 24px 0; */
+  padding: 24px;
+  background: #fff;
+  position: relative;
+}
+
+.site-layout-content h1 span {
+  color: blue;
+  margin-left: 6px;
+}
+
+.reload-comments-btn,
+.reload-comments-btn:focus {
+  display: inline-block;
+  background: black;
+  border-color: black;
+  color: white;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.reload-comments-btn:not([disabled]):hover,
+.reload-comments-btn:not([disabled]):active {
+  background: white;
+  color: black;
+  border-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ant-btn[disabled],
+.ant-btn[disabled]:hover,
+.ant-btn[disabled]:focus,
+.ant-btn[disabled]:active {
+  background: rgb(193, 192, 192);
+  border-color: rgb(193, 192, 192);
+  color: white;
+}
+
+.reload-comments-btn-disabled {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  box-shadow: none;
+  background: white;
+  border-color: rgb(193, 192, 192);
+  color: white;
+}
