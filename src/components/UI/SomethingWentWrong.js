@@ -4,7 +4,7 @@ import { useHistory } from 'react-router-dom';
 const SomethingWentWrong = props => {
   const history = useHistory();
   const goToMainPageHandler = () => {
-    history.push('/HackerNewsClone/news');
+    history.push('/news');
   };
   return (
     <Fragment>
